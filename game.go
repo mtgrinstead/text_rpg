@@ -53,12 +53,8 @@ func game() {
 		// Handle north direction
 		if currentTile.North {
 			go_north()
-			// if !currentTile.Visited {
-			// 	fmt.Println(currentTile.Description)
-			// 	currentTile.Visited = true
-			// 	} else {
-			// 	fmt.Println(CurrentTile.Description)
-			// }
+			currentTile, _ = getCurrentTile(PlayerPosition)
+			fmt.Println(currentTile.Description)
 		} else {
 			fmt.Println("You can not go that way.")
 		}
@@ -66,12 +62,8 @@ func game() {
 	case input == "south":
 		if currentTile.South {
 			go_south()
-			// if !currentTile.Visited {
-			// 	fmt.Println(currentTile.Description)
-			// 	currentTile.Visited = true
-			// 	} else {
-			// 	fmt.Println(CurrentTile.Description)
-			// }
+			currentTile, _ = getCurrentTile(PlayerPosition)
+			fmt.Println(currentTile.Description)
 		} else {
 			fmt.Println("You can not go that way.")
 		}
@@ -115,9 +107,9 @@ func game() {
 				} else {
 					fmt.Println("Invalid input.")
 				}
+		} 
 		} else {
 			fmt.Println("There is nothing to Examine.")
-		}
 	}
 
 	case input == "get":

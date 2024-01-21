@@ -105,27 +105,27 @@ illuminating a peculiar stone structure at the center. Symbols and runes adorn i
 EXAMINE the stone structure: Investigate the mysterious symbols and runes, seeking clues about the grove's history.
 Continue along the path: Press forward, determined to uncover the secrets that still linger within the fog.
 Retrace your steps: Return to the heart of the grove, considering other paths that may unravel the mysteries shrouding your memory.`
-var tile_43_examine = `You decide to closely examine the stone structure, paying particular attention to the ancient symbols and runes etched into its surface. 
-As you run your fingers over the weathered stones, you notice a peculiar rune that stands out – it has an oddly shaped indent at its center. The indentation seems deliberate, 
-as if designed to hold something specific.
-Upon closer inspection, you observe that the indent is shaped in a unique pattern, different from the other runes. It appears to be waiting for something to fill the void, 
-as if it once held an object of significance. The stone structure exudes a faint energy, and you sense that uncovering the purpose of this peculiar rune might reveal hidden secrets.
+var tile_43_examine = `You closely examine the stone structure, paying particular attention to the ancient symbols and runes etched into its surface. 
+Running your fingers over the weathered stones, you notice a peculiar rune that stands out – it has an oddly shaped stone at its center, 
+appearing deliberate, as if designed to hold something specific.  The stone structure exudes a faint energy, 
+and you sense that uncovering the purpose of this peculiar stone might reveal hidden secrets.
 
 Options:
-Use an item: If you have any items in your possession, consider whether any could be placed into the indent to uncover its purpose.
+Try and take the stone.
 Continue exploring: Leave the stone structure for now and continue your journey through the grove, keeping the peculiar rune in mind.`
 
 
 var stone_placed = `As you delicately place the peculiarly shaped stone into the rune's oddly shaped indent, you feel a subtle shift in the air. 
 The stone fits into the void with an almost magnetic pull, settling seamlessly into place. As the stone finds its spot, a hushed vibration echoes through the grove, 
-and you sense a connection resonating with the wild flora that surrounds you.
-The ancient trees seem to stir, their gnarled branches shifting in response. The luminescent mushrooms emit a soft glow, synchronizing with the newfound energy.
- A chorus of unseen creatures, perhaps hidden within the shadows, releases a symphony of chirps and rustles. It's as if the grove itself is awakening, 
- responding to the adjustment you made to the stone structure.
-A gentle tremor, like the heartbeat of the grove, emanates from the ground. It's a harmonious dance between nature and the mysterious forces that linger in the air. 
-The once cloaked surroundings now reveal a heightened vitality, and you find yourself at the center of this enigmatic convergence.
-With the stone in place, you notice subtle changes in the archway to the right. The vines and foliage part slightly, revealing a passage beyond. 
-Shadows retreat, unveiling a path that leads deeper into the heart of the grove. The air, charged with newfound energy, beckons you to explore further.
+and you sense a connection resonating with the wild flora that surrounds you.  The ancient trees seem to stir, 
+their gnarled branches shifting in response. The luminescent mushrooms emit a soft glow, synchronizing with the newfound energy.
+A chorus of unseen creatures, perhaps hidden within the shadows, releases a symphony of chirps and rustles. 
+It's as if the grove itself is awakening, responding to the adjustment you made to the stone structure.
+A gentle tremor, like the heartbeat of the grove, emanates from the ground. It's a harmonious dance between nature and the mysterious 
+forces that linger in the air. The once cloaked surroundings now reveal a heightened vitality, and you find yourself at the center 
+of this enigmatic convergence.  With the stone in place, you notice subtle changes in the archway to the right. 
+The vines and foliage part slightly, revealing a passage beyond. Shadows retreat, unveiling a path that leads deeper into the heart of the grove. 
+The air, charged with newfound energy, beckons you to explore further.
 
 What would you like to do?
 Venture NORTH through the revealed passage: Follow the path beyond the archway, curious about the secrets it might unveil.
