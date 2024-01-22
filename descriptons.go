@@ -14,40 +14,26 @@ The air is thick with anticipation, and a sense of both curiosity and trepidatio
 with the grove offering no clues about your past or the purpose of your presence here.
 
 What would you like to do?
-Follow the path: Venture deeper EAST into the grove, hoping to unravel the mysteries that shroud your memory.
-Investigate the archway: Examine the enigmatic arch, curious about what lies beyond.
-Explore the brook: Follow the gentle sounds of running water to the WEST and discover what secrets the brook may hold.`
+Follow the path to the EAST: Venture deeper into the grove, hoping to unravel the mysteries that shroud your memory.
+EXAMINE the archway: Investigate the enigmatic arch, curious about what lies beyond.
+Explore the brook to the wEST: Follow the gentle sounds of running water and discover what secrets the brook may hold.
+Type help for command help.`
 
 var tile_32_short = ``
-var tile_32_description = `Stepping through the moss-laden stones, you emerge from the emerald embrace of the twilight grove. 
-Sunlight, dappled and warm, filters through the canopy overhead, painting the forest floor in a mosaic of light and shadow. 
-The oppressive mist that shrouded the grove like a spectral veil thins and dissipates, revealing a world reborn in vibrant hues.  
-Gone are the gnarled branches clawing at the sky, replaced by a cathedral of towering trees. 
-Sunlight bathes their emerald leaves in liquid gold, casting long, dancing shadows across the verdant carpet below. 
-The air, once thick with the cloying scent of damp earth, now hums with the sweet symphony of birdsong and the rustling whispers of leaves.
-A carpet of wildflowers, a kaleidoscope of amethyst and saffron, stretches before you. Butterflies, their wings like stained glass windows, 
-flit from bloom to bloom, their vibrant colors a stark contrast to the muted tones of the grove. A gentle breeze stirs the emerald sea, 
-sending ripples of color dancing across the floral expanse.  In the distance, a crystalline stream meanders through the glade, 
-its surface a mirror reflecting the azure sky above. Sunlight dances on the water, transforming it into a liquid tapestry of diamonds and sapphires. 
-The gurgle of its current mingles with the birdsong, creating a melody that soothes the soul.  A path, worn smooth by the tread of countless unseen feet, 
-beckons you deeper into the sun-dappled heart of the glade. The ancient stones that pave its way are etched with cryptic symbols, 
-their meaning lost to the ages yet pulsing with an undeniable magic. The air here crackles with an unseen energy, 
-a whispered promise of adventure that sets your heart racing with anticipation.  As you step onto the path, the sunlight warms your skin, 
-chasing away the lingering chill of the grove. You take a deep breath, the fresh, sweet air filling your lungs, and a sense of wonder washes over you. 
-This is no ordinary glade; it is a portal to a world of vibrant life, ancient secrets, and endless possibilities.  It's then, with the first tentative 
-steps on this sunlit haven, that a flicker of recognition ignites within. A spark in the fog-choked memory that once held your past. 
-Slowly, like an ancient scroll unfurling, fragmented glimpses emerge: a final breath, a searing flash, a peaceful surrender. The pieces click into place, 
-forming a horrifying yet liberating truth - you are no longer bound by the mortal coil. This sunlit glade, this vibrant symphony of life, it's not just a paradise found, 
-it's a realm beyond the veil, a land of the ever-after.  A strange calmness washes over you. Fear, perhaps, should gnaw at the edges of your being, 
-yet an undeniable acceptance takes hold. The sun warms your skin, not with mere light, but with a gentle understanding. 
-The rustling leaves whisper not secrets, but echoes of countless souls who have passed before. Perhaps this death is not an ending, but a homecoming, 
-a transition into a new chapter of existence, whispered about in hushed tones throughout life's fleeting moments.  With newfound clarity, you stand tall, 
-not in defiance of your fate, but in humble acceptance. This glade, bathed in eternal sunlight, may not be the world you knew, but it is yours to explore, 
-to understand. The ancient path beckons, not with promises of earthly destinations, but with the whispers of untold mysteries, tales woven from the fabric of eternity itself. 
-This is not a path you fear, but one you embrace, a first step into an existence unbound by the limitations of mortal clay.  The sun shines bright, 
-not just on the glade, but on your newly awakened soul. You raise your head, a smile gracing your lips. This is not an end, but an endless beginning, 
-a chance to dance in the sunlit glade of forever. It's time to walk the path, not with the trepidation of the lost, but with the curiosity of the explorer, 
-the wonder of the awakened.`
+var tile_32_description = `Emerging from the twilight grove, sunlight paints a mosaic of light and shadow on the forest floor. 
+The mist dissipates, revealing a world reborn in vibrant hues. Towering trees cast dancing shadows, and a sweet symphony of birdsong fills the air.
+A carpet of wildflowers in amethyst and saffron stretches before you, butterflies flitting from bloom to bloom. 
+A crystalline stream reflects the azure sky, and its gurgle harmonizes with birdsong. A path etched with cryptic symbols beckons you deeper into the heart of the glade.
+The air crackles with unseen energy, promising adventure. As you step onto the path, sunlight warms your skin, and a sense of wonder washes over you. 
+This is no ordinary glade; it's a portal to a world of vibrant life, ancient secrets, and endless possibilities.
+With the first tentative steps, a flicker of recognition ignites within. Glimpses of a past emerge, forming a liberating truth—you are no longer bound by the mortal coil. 
+This sunlit glade is a realm beyond the veil, a land of the ever-after.  A strange calmness washes over you. Fear gives way to acceptance as the sun warms your skin with a gentle understanding. 
+The rustling leaves echo the countless souls before you. Death becomes a homecoming, a transition into a new chapter of existence.
+With newfound clarity, you stand tall in humble acceptance. The glade, bathed in eternal sunlight, is yours to explore and understand. 
+The ancient path beckons with whispers of untold mysteries, tales woven from the fabric of eternity.
+This is a path you embrace, a first step into an existence unbound by the limitations of mortal clay. 
+The sun shines on your newly awakened soul. This is not an end but an endless beginning, a chance to dance in the sunlit glade of forever. 
+It's time to walk the path with the curiosity of the explorer, the wonder of the awakened.`
 
 var tile_23_short = `You find yourself back at the brook.`
 var tile_23_description = `As you decide to explore the babbling brook to your left, you make your way through the damp, moss-covered ground, drawn by the soft sounds of running water. 
@@ -127,22 +113,20 @@ It's as if the grove itself is awakening, responding to the adjustment you made 
 A gentle tremor, like the heartbeat of the grove, emanates from the ground. It's a harmonious dance between nature and the mysterious 
 forces that linger in the air. The once cloaked surroundings now reveal a heightened vitality, and you find yourself at the center 
 of this enigmatic convergence.  With the stone in place, you notice subtle changes in the archway to the right. 
-The vines and foliage part slightly, revealing a passage beyond. Shadows retreat, unveiling a path that leads deeper into the heart of the grove. The air, charged with newfound energy, beckons you to explore further.
+The vines and foliage part slightly, revealing a passage beyond. Shadows retreat, unveiling a path that leads deeper into the heart of the grove. 
+The air, charged with newfound energy, beckons you to explore further.
 
 What would you like to do?
 Venture NORTH through the revealed passage: Follow the path beyond the archway, curious about the secrets it might unveil.
-Explore the changed surroundings: Observe the altered grove, paying attention to any new details that may have emerged.
-Head back to the brook or the path: Return to familiar locations, either the babbling brook to the left or the narrow path winding through the ancient trees.`
+Explore the changed surroundings: Observe the altered grove, paying attention to any new details that may have emerged.`
 
-var help = `COMMANDS:  NORTH, SOUTH, EAST, WEST, EXAMINE, GET ITEM, PLACE, INVENTORY, HELP, QUIT`
-
-var hellscape = `As you persist in attempting to force your way past the brook's enchantment, the air thickens with an unsettling energy.  
-A haunting hum resonates, growing louder with each futile attempt. The smooth stones lining the brook's edge reveal hidden mouths emitting tortured whispers. 
-The ancient trees' branches contort, casting skeletal shadows that reach out as if trying to warn you.
-As the barrier gives way, you find yourself being drawn into the brook's depths. The water transforms into a turbulent whirlpool that pulls you into a realm of distorted 
-visions—screaming souls, contorted faces, and indescribable horrors. The air is thick with despair, and the haunting hum becomes a cacophony of wails.
-The once-beautiful brook has become a gateway to a dimension of eternal suffering. Tormented spirits claw at you, their spectral hands reaching out in silent agony. 
-Your senses are overwhelmed by unbearable suffering. The consequences of defying the brook's enchantment are clear.
+var hellscape = `As you persist in challenging the brook's enchantment, an unsettling energy thickens the air. 
+The brook's edge reveals hidden mouths emitting tortured whispers, while contorted shadows warn of the impending struggle.
+As the barrier yields, you're drawn into a turbulent whirlpool, thrust into a realm of distorted visions—screaming souls, contorted faces, and indescribable horrors. 
+Despair permeates the air, and the haunting hum becomes a cacophony of wails.  The once-beautiful brook transforms into a gateway of eternal suffering. 
+Tormented spirits reach out in silent agony, overwhelming your senses with unbearable suffering. The consequences of defying the enchantment are clear.
 In this realm, time loses meaning, and the pain seems eternal. The enchantment, now a prison of despair, serves as a warning to those who defy the natural order. 
 Your existence within this nightmarish dimension becomes a testament to the consequences of pushing past ancient magic's boundaries.
-The choice to press on has led to an irreversible fate—a descent into an abyss of agony, with no escape in sight.  Your soul is now ensnared within this inescapable realm of torment.`
+The choice to press on has led to an irreversible fate—a descent into an abyss of agony, with no escape in sight. Your soul is now ensnared within this inescapable realm of torment.`
+
+var help = "COMMANDS:\nNORTH, SOUTH, EAST, WEST - to travel north, south, east, west\nEXAMINE - to further examine something\nGET - to pick up item\nPLACE - to place item\nINVENTORY - to view inventory\nHELP\nQUIT"

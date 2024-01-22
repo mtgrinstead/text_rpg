@@ -103,7 +103,7 @@ func game() {
 					alive = false
 					break
 				} else if h == "n" {
-
+					fmt.Println("Which direction would you like to go?")
 				} else {
 					fmt.Println("Invalid input.")
 				}
@@ -130,6 +130,9 @@ func game() {
 		} else {
 			fmt.Println(playerInventory)
 		}	
+
+	case input == "drop":
+		fmt.Println("What item would you like to drop?")
 
 	case input == "help":
 		// Handle help
